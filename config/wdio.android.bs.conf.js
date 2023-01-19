@@ -5,8 +5,8 @@ const { config } = require('./wdio.shared.conf');
 // ============
 // BrowserStack Credentials
 // ============
-config.user = 'sowmiab_HEMZIS';
-config.key = 'ZjUCdNrqDKSspLU2qm3b';
+config.user = 'sowmiab_q5oIf4';
+config.key = 'Uvj6RSGzkcnFvQ4WQjMo';
 
 //
 // ============
@@ -27,7 +27,7 @@ config.capabilities = [
     "appium:platformVersion": "10.0",
     "appium:deviceName": "Google Pixel 3",
     "appium:automationName": "UIAutomator2",
-    "appium:app": "bs://74254bec3dfac265fe9b9dbaa980aba13722f12f",
+    "appium:app": "bs://490584f17e0546e03da4798ab525a89dbe6577d0",
     "appium:autoGrantPermissions": true
   }
 ]
