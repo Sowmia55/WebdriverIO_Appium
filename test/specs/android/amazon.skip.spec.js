@@ -1,5 +1,5 @@
 
-describe.skip('Skip sign IN', () => {
+describe.skip('Skip sign in', () => {
     it('Amazon Skip login', async () => {
         await $('//*[@resource-id="com.amazon.mShop.android.shopping:id/skip_sign_in_button"]')
         .click();  
